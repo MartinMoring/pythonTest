@@ -41,7 +41,7 @@ def getSubPageData(url,time):
         return []
     page = urllib2.urlopen(url)
     contents = page.read()
-    # 111获得了整个网页的内容也就是源代码
+    # 获得了整个网页的内容也就是源代码
 
     soup = BeautifulSoup(contents, "html.parser")
     subList = []
