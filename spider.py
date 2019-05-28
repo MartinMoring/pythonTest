@@ -29,10 +29,10 @@ def getData(url):
         m_url = tag.find('a').get('href')
         # print( m_name+"        "  +  str(m_rating_score)   + "           " + m_peoplecount + "    " + m_url )
         parent = [m_name, m_rating_score, m_peoplecount, m_url]
-        subList = getSubPageData(parent[3],1)
+        # subList = getSubPageData(parent[3],1)
         finalList.append(parent)
-        finalList = finalList +subList
-        break
+        # finalList = finalList +subList
+        # break
     return finalList
 
 #time:代表是第几代儿子
