@@ -36,7 +36,7 @@ def getData(url):
     return finalList
 
 #获得了一个电影关联的其他电影
-# url ： 要爬取的页面
+# url ： 要爬取的页面hhhhhhhh
 # time ：:代表是第几代儿子 ，如：2表示子页面的子页面
 def getSubPageData(url, time):
     if time >= 3:#限制第三代和三代以上就终止，防止无限爬取
